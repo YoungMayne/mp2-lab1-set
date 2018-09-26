@@ -1,0 +1,5 @@
+﻿  sample_prime_numbers.cpp
+sample_prime_numbers.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+bitfield.lib(tbitfield.obj) : error LNK2019: unresolved external symbol "private: int __thiscall TBitField::max(int,int)" (?max@TBitField@@AAEHHH@Z) referenced in function "public: class TBitField __thiscall TBitField::operator&(class TBitField const &)" (??ITBitField@@QAE?AV0@ABV0@@Z)
+bitfield.lib(tbitfield.obj) : error LNK2019: unresolved external symbol "private: int __thiscall TBitField::min(int,int)" (?min@TBitField@@AAEHHH@Z) referenced in function "public: class TBitField __thiscall TBitField::operator&(class TBitField const &)" (??ITBitField@@QAE?AV0@ABV0@@Z)
+E:\Projects\my\mp2-lab1-set\sln\vc10\Debug\sample_prime_numbers.exe : fatal error LNK1120: 2 unresolved externals

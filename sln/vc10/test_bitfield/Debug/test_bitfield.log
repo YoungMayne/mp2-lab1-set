@@ -1,0 +1,2 @@
+﻿test_main.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  test_bitfield.vcxproj -> E:\Projects\my\mp2-lab1-set\sln\vc10\Debug\test_bitfield.exe
