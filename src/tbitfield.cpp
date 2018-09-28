@@ -139,7 +139,7 @@ TBitField TBitField::operator~(void) { // отрицание
 
 istream &operator>>(istream &istr, TBitField &bf) { // ввод
 	string str;
-	//istr >> str;
+	istr >> str;
 	int j = str.size() - 1;
 	for (int i = 0; i < str.size(); i++, j--)
 		if (str[i] == '1')
