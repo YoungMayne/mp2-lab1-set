@@ -138,9 +138,19 @@ TBitField TBitField::operator~(void) { // отрицание
 //// ввод/вывод
 
 istream &operator>>(istream &istr, TBitField &bf) { // ввод
+	string str;
+	//istr >> str;
+	int j = str.size() - 1;
+	for (int i = 0; i < str.size(); i++, j--)
+		if (str[i] == '1')
+			bf.SetBit(j);
 	return istr;
 }
 
 ostream &operator<<(ostream &ostr, const TBitField &bf) { // вывод
+	int j = bf.BitLen - 1;
+	for (int i = 0; i < bf.BitLen; i++, j--)
+		bf.GetBit(j) == 0 ? ostr << 0 : ostr << 1;
+
 	return ostr;
 }

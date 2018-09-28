@@ -1,2 +1,5 @@
 ﻿  tset.cpp
+  tbitfield.cpp
+e:\projects\my\mp2-lab1-set\src\tbitfield.cpp(144): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
   bitfield.vcxproj -> E:\Projects\my\mp2-lab1-set\sln\vc10\Debug\bitfield.lib

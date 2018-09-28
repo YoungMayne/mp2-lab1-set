@@ -97,9 +97,22 @@ TSet TSet::operator~(void) { // дополнение
 // перегрузка ввода/вывода
 
 istream &operator>>(istream &istr, TSet &s) { // ввод
+	int a;
+	while (1) {
+		cin >> a;
+		s.InsElem(a);
+		if (a = _getch() == 13)
+			break;
+		a = 0;
+	}
 	return istr;
 }
 
 ostream& operator<<(ostream &ostr, const TSet &s) { // вывод
+	ostr << "{";
+	for (int i = 0; i < s.MaxPower; i++)
+		if (s.IsMember(i))
+			ostr << i << " ";
+	ostr << "}";
 	return ostr;
 }
