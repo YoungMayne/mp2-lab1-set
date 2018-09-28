@@ -11,6 +11,7 @@
 #define SIZE (sizeof(TELEM) * 8)
 
 #include <iostream>
+#include <string>
 
 using namespace std;
 
